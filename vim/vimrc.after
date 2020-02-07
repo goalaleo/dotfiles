@@ -1,2 +1,15 @@
+set nocompatible
+
 set relativenumber
 set number
+
+" Make backspace behave in a sane manner.	
+set backspace=indent,eol,start
+
+" Highlight search
+set hlsearch
+set incsearch
+
+" Show current command
+set showcmd
+
