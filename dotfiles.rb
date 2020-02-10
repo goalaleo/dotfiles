@@ -5,7 +5,7 @@ module Dotfiles
   # Get instructions for which files to link
   def link_lists
     Dir
-      .glob("./**/linklist")
+      .glob("./**/linklist", File::FNM_DOTMATCH)
       .map(&File.method(:realpath))
   end
 
