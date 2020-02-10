@@ -10,3 +10,6 @@ set incsearch
 
 " Show current command
 set showcmd
+
+" Enhance % command to work with, class, module def if do and end keywords
+runtime macros/matchit.vim
