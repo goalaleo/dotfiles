@@ -7,7 +7,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 " === PLUGINS START
 
-
+Plugin 'vim-ruby/vim-ruby'
 
 " === PLUGINS END
 " All of your Plugins must be added before the following line
