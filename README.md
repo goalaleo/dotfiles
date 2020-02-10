@@ -1,8 +1,15 @@
+## Installation
+This repository has the [vundle](https://github.com/VundleVim/Vundle.vim) repository as a submodule, so you should
+clone this with the `--recurse-submodules` option to automatically initialize and update the vundle submodule
+```bash
+git clone --recurse-submodules https://github.com/goalaleo/dotfiles.git
+```
+
 ## Usage
 Run `rake` from the root directory to start creating symlinks.
 If a link already exists in the home directory, the task will ask
 for confirmation before replacing the existing file.
-```
+```bash
 ▶ rake
 Looking for link lists...
 Found:
