@@ -11,7 +11,7 @@ module Dotfiles
 
   # Create symlinks to homedir
   def create(dotfile_path)
-    symlink_path = HOME_DIRECTORY + ".#{dotfile_path.basename}"
+    symlink_path = HOME_DIRECTORY + "#{dotfile_path.basename}"
 
     link_str = "%s -> %s" % [symlink_path, dotfile_path]
     puts "linking #{symlink_path}"
