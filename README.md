@@ -6,7 +6,7 @@ git clone --recurse-submodules https://github.com/goalaleo/dotfiles.git
 ```
 
 ## Usage
-Run `rake` from the root directory to start creating symlinks.
+Run `rake` from the repo root directory to start creating symlinks.
 If a link already exists in the home directory, the task will ask
 for confirmation before replacing the existing file.
 ```bash
