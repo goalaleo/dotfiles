@@ -13,7 +13,8 @@ task :install do
     link_list_path = Pathname.new(link_list)
     dotfiles = File.readlines(link_list_path, chomp: true).to_a
 
-    puts "Creating symlinks..."
+    puts "\n=========="
+    puts "Creating symlinks from #{link_list}"
     dotfiles.each do |dotfile|
       Dotfiles.create(link_list_path.dirname + dotfile)
     end

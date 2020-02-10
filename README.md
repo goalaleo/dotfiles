@@ -13,14 +13,22 @@ for confirmation before replacing the existing file.
 ▶ rake
 Looking for link lists...
 Found:
-["/Users/username/src/dotfiles/vim/linklist"]
-Creating symlinks...
+["/Users/username/src/dotfiles/.vim/linklist", "/Users/username/src/dotfiles/linklist"]
+
+==========
+Creating symlinks from /Users/username/src/dotfiles/.vim/linklist
 linking /Users/username/.vimrc
 replace /Users/username/.vimrc? y
-/Users/username/.vimrc -> /Users/username/src/dotfiles/vim/vimrc
+/Users/username/.vimrc -> /Users/username/src/dotfiles/.vim/.vimrc
 linking /Users/username/.vimrc.after
 replace /Users/username/.vimrc.after? y
-/Users/username/.vimrc.after -> /Users/username/src/dotfiles/vim/vimrc.after
+/Users/username/.vimrc.after -> /Users/username/src/dotfiles/.vim/.vimrc.after
+
+==========
+Creating symlinks from /Users/username/src/dotfiles/linklist
+linking /Users/username/.vim
+replace /Users/username/.vim/.vim? y
+/Users/username/.vim -> /Users/username/src/dotfiles/.vim
 ```
 ## `linklist`s
 Only files listed in a `linklist` file will be linked. `linklist`s refer to files
