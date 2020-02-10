@@ -1,4 +1,6 @@
 " before
+set nocompatible
+
 
 
 
