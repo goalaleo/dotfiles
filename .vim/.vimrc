@@ -20,4 +20,5 @@ filetype plugin indent on    " Enable filetype-specific plugins and indentation
 syntax on                    " Enable syntax highlighting
 
 " after
-so ~/.vimrc.after
+so ~/.vim/.vimrc.after
+so ~/.vim/.vimrc.leadermap
