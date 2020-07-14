@@ -1,4 +1,3 @@
-require "pry"
 require "./dotfiles.rb"
 
 task default: %i(install)
