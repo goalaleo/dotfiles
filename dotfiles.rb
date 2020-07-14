@@ -1,3 +1,5 @@
+require "pathname"
+
 module Dotfiles
   extend self
   HOME_DIRECTORY = Pathname.new(ENV["HOME"])
