@@ -7,17 +7,26 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 " >>> PLUGINS START
 
+Plugin 'tpope/vim-sensible'
 Plugin 'vim-ruby/vim-ruby'
 
 " Add textobject support for different kinds of ruby blocks
 Plugin 'kana/vim-textobj-user'
 Plugin 'rhysd/vim-textobj-ruby'
 
+" Upgraded status line
+Plugin 'vim-airline/vim-airline'
+
+" Atom dark one theme for vim
+Plugin 'rakr/vim-one'
+
+Plugin 'airblade/vim-gitgutter'
+
 " <<< PLUGINS END
 " All of your Plugins must be added before the following line
 call vundle#end()
-filetype plugin indent on    " Enable filetype-specific plugins and indentation
-syntax on                    " Enable syntax highlighting
+
+so ~/.vim/.vimrc.color
 
 " after
 so ~/.vim/.vimrc.after
