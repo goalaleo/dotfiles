@@ -9,6 +9,7 @@ call vundle#begin()
 
 Plugin 'tpope/vim-sensible'
 Plugin 'vim-ruby/vim-ruby'
+Plugin 'tpope/vim-rails'
 
 " Add textobject support for different kinds of ruby blocks
 Plugin 'kana/vim-textobj-user'
