@@ -23,11 +23,15 @@ Plugin 'rakr/vim-one'
 
 Plugin 'airblade/vim-gitgutter'
 
+Plugin 'kien/ctrlp.vim'
+
+Plugin 'tpope/vim-fugitive'
 " <<< PLUGINS END
 " All of your Plugins must be added before the following line
 call vundle#end()
 
 so ~/.vim/.vimrc.color
+so ~/.vim/.vimrc.ctrlp
 
 " after
 so ~/.vim/.vimrc.after
