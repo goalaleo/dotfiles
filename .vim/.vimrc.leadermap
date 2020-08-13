@@ -1,3 +1,7 @@
 let mapleader = ","
 
 map <Leader>d orequire 'pry'; binding.pry<esc>:w<cr>
+map <leader>re :execute "edit " . $MYVIMRC<CR>
+map <leader>rs :execute "source " . $MYVIMRC<CR>
+nmap <Leader>o <C-]>
+

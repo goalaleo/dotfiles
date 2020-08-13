@@ -1,5 +1,11 @@
 set relativenumber
 set number
+set nowrap
+set splitright
+set splitbelow
 
 " Show current command
 set showcmd
+
+" Alternative for go to definition to make it work for non-US keyboards
+nnoremap <buffer><silent> <C-]> :tag <C-R><C-W><CR>
